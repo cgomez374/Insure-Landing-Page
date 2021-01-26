@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla&display=swap');     
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    font-family: 'DM Serif Display', serif;
+    /* font-size: 16px; */
+    text-transform: uppercase;
+    color: #000000;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+/* NAVIGATION ========================================================= */
+
+.nav-container {
+    /* background-color: red; */
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.link {
+    list-style: none;
+    padding: 0 18px;
+    /* opacity: 90%; */
+    letter-spacing: 1.6px;
+    font-size: 15px;
+}
+
+.link a {
+    text-decoration: none;
+}
+
+#special-link {
+    border: 2px solid #000000;
+    font-size: 13px;
+
+}
+
+/* SHOWCASE ========================================================= */
+
+.showcase {
+    width: 100%;
+    height: 600px;
+    background-color: hsl(256, 26%, 20%);
+    display: flex;
+    
+}
+
+.showcase-desc {
+    color: #ffffff;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 95px 10px 80px 170px;
+    text-align: left;
+    /* background-color: red; */
+}
+
+.line {
+    border: 1px solid #ffffff;
+    width: 25%;
+    height: auto;
+    opacity: 80%;
+}
+
+.showcase-title {
+    font-size: 4rem;
+    margin-bottom: 60px;
+    padding-top: 100px;
+    
+    
+}
+
+.showcase-p {
+    letter-spacing: 1.2px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    
+}
+
+#showcase-btn {
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+#showcase-img {
+    
+    width: 700px;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    padding: 100px 100px 0 30px;
+}
+
+/* section */
+
+.mid-section {
+    /* background-color: red; */
+    width: 78%;
+    height: auto;
+    margin: auto;
+    padding-top: 230px;
+    padding-bottom: 60px;
+
+}
+
+.mid-section-line {
+    border: 0.5px solid #000000;
+    width: 9%;
+    height: auto;
+    opacity: 80%;
+    margin-bottom: 50px;
+}
+
+.mid-section h1 {
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 10px 10px;
+}
+
+.card img {
+    margin-bottom: 20px;
+    width: 100px;
+    height: auto;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+}
+
+/* banner */
+.banner {
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    /* padding-bottom: 30px; */
+    background-color: hsl(256, 26%, 20%);
+    margin-top: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+}
+
+.banner-text {
+    font-size: 2rem;
+}
+
+#banner-btn {
+    width: 150px;
+    height: 40px;
+    text-transform: capitalize;
+    background-color: transparent;
+    background-repeat: repeat;
+    overflow: hidden;
+    outline: none;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    height: auto;
+    margin: 120px auto auto;
+    display: flex;
+    flex-direction: column;
+    background-color:hsl(0, 0%, 98%);
+    padding: 20px 90px 20px;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 140px 30px;
+    
+}
+
+.footer-line {
+    border: 1px solid #000000;
+    opacity: 50%;
+    margin: auto auto 30px;
+    width: 80%;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px 10px;
+    
+}
+
+.footer-links {
+    text-transform: uppercase;
+    font-size: 10pt;
+}
+
+.footer-links div h3 {
+    padding-bottom: 15px;
+    opacity: 60%;
+}
+
+.footer-link {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* media queries */
+@media (max-width: 1370px) {
+    .showcase-desc {
+        padding-left: 30px;
+    }
+}
+
+
+
+
+
+
+/* preset */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
